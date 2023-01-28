@@ -5,13 +5,56 @@
   --Dark-blue: rgb(31, 50, 81);
 }
 
-body {
-  background-color: var(--Light-gray);
-  font-size: 15px;
+/* BODY */
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
-/* Footer */
+body {
+  background-color: var(--Light-gray);
+  display: grid;
+
+}
+
+/* SECTION */
+
+section {
+  background-color: var(--White);
+  margin: 10px auto;
+  padding: 10px;
+  max-width: 150px;
+  border-radius: 10px;
+}
+
+section div#qr-code img{
+  border-radius: 5px;
+}
+
+section div#texto {
+  font-family: Outfit;
+  text-align: center;
+}
+
+section div#texto h1 {
+  color: var(--Dark-blue);
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+section div#texto p {
+  color: var(--Grayish-blue);
+  font-size: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* FOOTER */
+
 .attribution {
+  font-family: Outfit;
   font-size: 11px;
   text-align: center;
 }

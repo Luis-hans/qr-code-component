@@ -57,6 +57,6 @@ Este projeto está sob a licença MIT. Sinta-se à vontade para usar, modificar 
 
 ## 🤝 Contato
 
-Feito por Luís Henrique
+Feito por Luís Henrique  
 📬 luishenrique.lhans@gmail.com  
 🐙 https://github.com/Luis-hans
